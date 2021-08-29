@@ -14,7 +14,7 @@ func twoSum(nums []int, target int) []int {
 	seen := make(map[int]int)
 
 	// 2. Iterate the nums.
-	//	  Remember: In golang, when using a for range the first is the index, and the second is a copy of the element of that index. https://tour.golang.org/moretypes/16
+	//	  Remember: On golang, when using a for range the first is the index, and the second is a copy of the element of that index. https://tour.golang.org/moretypes/16
 	//	  In other words, nums[i] = x
 	for i, x := range nums {
 		// 3. Check if the number is in the map. https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go
